@@ -1,0 +1,102 @@
+div.filled {
+    display: block;
+}
+
+.about-carousel .item div.caption {
+    margin-top: 100px;
+}
+
+#mission {
+    display: none;
+}
+
+.owl-wrapper-outer, .owl-wrapper, .owl-item {
+    height: 100%;
+}
+
+#gallery div.container div.portfolio {
+	border: 1px #dddddd solid;
+	border-radius: 8px;
+}
+
+.vote_bg {
+	-webkit-background-size: cover !important;
+	-moz-background-size: cover !important;
+	-o-background-size: cover !important;
+	background-size: cover !important;
+}
+
+#ashley_bg {
+	background: url(../img/portfolio/grid/DwVote/S_Ashley.jpg) no-repeat center fixed;
+}
+
+#bridget_bg {
+	background: url(../img/portfolio/grid/DwVote/S_Bridget.jpg) no-repeat center fixed;
+}
+
+@media (max-width: 767px) {
+    .navbar-brand img {
+        height: 95%;
+    }
+}
+
+@media (min-height: 900px) and (min-width: 1800px){
+    .loader {
+	overflow:hide;
+	height: 650px;
+    }
+    .loader_div{
+	margin-top:5%;
+    }
+}
+@media (min-height: 999px) and (min-width: 1800px){
+    .loader {
+	overflow:hide;
+	height: 650px;
+    }
+    .loader_div{
+	margin-top:7%;
+    }
+}
+@media (min-height: 700px) and (min-width: 1400px){
+    .loader {
+	overflow:hide;
+	height: 650px;
+    }
+    .loader_div{
+	margin-top:3%;
+    }
+}
+@media (min-height: 999px) and (min-width: 1800px){
+    .loader {
+	overflow:hide;
+	height: 650px;
+    }
+    .loader_div{
+	margin-top:7%;
+    }
+}
+@media (min-width: 770px){
+    .loader {
+	overflow:hide;
+	height: 650px;
+    }
+}
+@media (max-width: 769px){
+    .loader {
+	overflow:hide;
+	height: 1300px;
+    }
+}
+@media (max-height: 550px) and (max-width: 550px){
+    .loader {
+	overflow:hide;
+	height: 1300px;
+    }
+}
+@media (max-height: 800px) and (max-width: 600px){
+    .loader {
+	overflow:hide;
+	height: 1200px;
+    }
+}
